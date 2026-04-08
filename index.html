@@ -5,14 +5,52 @@
 </head>
 <body>  
     <h1>1-2반 소개</h1>
+    <hr>
     <div class = "Student-container">
         <!--아래에 다음과 같은 양식으로 추가해주세요-->
         <div class = "Student">
-            <h2>학번/이름</h2>
-            <p>취미</p>
-            <p>좋아하는 음식</p>
-            <p>꿈</p>
-            <p>하고 싶은 말</p>
+            <h2>내 이름은! <span style="color:red">유<span style="color:orange">재</span><span style="color:blue">연!</span></h2>
+            <form>
+                <fieldset>
+                    <legend><b>올해는 얼마나 갔을까? 🌏</b></legend>
+                    <progress id="pp" value="40" max="120"></progress>
+                    <label for="pp">37%</label>
+                </fieldset>
+            </form>
+            <ul>
+                <li>내 취미는 축구하는것 입니다. ⚽️</li>
+                <li>
+                    <label for="jj">내가 좋아하는 음식은 치킨! 🍗</label>
+                    <select id="jj">
+                        <option value="bbq" selected>BBQ</option>
+                        <option value="bhc">BHC</option>
+                        <option value="굽네">굽네치킨</option>
+                        <option value="푸라닭">푸라닭치킨</option>
+                        <option value="네네">네네치킨</option>
+                        <option value="노랑">노랑통닭</option>
+                        <option value="KFC">KFC</option>
+                        <option value="mom">맘스터치</option>
+                    </select>
+                </li>
+                <li>나의 꿈은 돈을 많이 버는 사업가 💵</li>
+            </ul>
+            <form>
+                <fieldset>
+                    <legend><b>요즘 내 기분</b></legend>
+                    <br>
+                    <label for="id">나쁨</label>
+                    <input id=id type="range">
+                    <label for="id">좋음</label>
+                </fieldset>
+                <hr>
+                <label for="oo">당신의 기분은? : </label>
+                <select id="oo">
+                    <option value="good">좋음</option>
+                    <option value="notbad" selected>보통</option>
+                    <option value="bad">나쁨</option>
+                </select>
+            </form>
+
         </div>
     </div>
 </body>
